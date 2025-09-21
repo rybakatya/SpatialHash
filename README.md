@@ -21,37 +21,6 @@ Install via **Package Manager** (UPM). Choose one of the options below.
    ```
    https://github.com/<org-or-user>/OpenWorldToolkit.SpatialHash.git
    ```
-   - To lock to a tag/branch/commit, append a ref:
-     - Tag: `https://github.com/<org-or-user>/OpenWorldToolkit.SpatialHash.git#v1.0.0`
-     - Branch: `https://github.com/<org-or-user>/OpenWorldToolkit.SpatialHash.git#main`
-     - Commit: `https://github.com/<org-or-user>/OpenWorldToolkit.SpatialHash.git#<commit-hash>`
-
-### Option B — Edit `Packages/manifest.json` directly
-Add an entry under `dependencies`:
-```json
-{
-  "dependencies": {
-    "com.openworldtoolkit.spatialhash": "https://github.com/<org-or-user>/OpenWorldToolkit.SpatialHash.git#v1.0.0"
-  }
-}
-```
-> Package name shown here (`com.openworldtoolkit.spatialhash`) follows Unity's naming convention. The actual display name and version come from the package's `package.json` inside the repo.
-
-### Option C — Local tarball (offline)
-If you export a `.tgz` from this repo (containing a valid `package.json` at its root), install it via:
-- **Package Manager → + → Add package from tarball…** and select the `.tgz`, or
-- Reference it in `manifest.json`:
-  ```json
-  {
-    "dependencies": {
-      "com.openworldtoolkit.spatialhash": "file:../packages/openworldtoolkit.spatialhash-1.0.0.tgz"
-    }
-  }
-  ```
-
-> **Note:** For OpenUPM or private registries, configure a **scoped registry** in `manifest.json` and ensure the scope matches `com.openworldtoolkit`.
-
----
 
 ## 🚀 Quick Start
 
