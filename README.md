@@ -106,10 +106,6 @@ hash.QueryCircle(center, radius, collector);
 
 - **Moving items**: if an item crosses subcell/cell boundaries often, track its last `(SpatialCell, subIndex)` externally and perform O(1) remove/insert updates.
 - **Avoid GC**: prefer the collector overload of `QueryCircle` to reuse your own list. The index also uses an internal scratch list to minimize allocations.
-- **Parameter tuning**:
-  - `cellSize`: usually **8–32** world units.
-  - `subdiv`: **4** for high density, **3** balanced, **2** for sparse scenes.
-
 ---
 
 ## 🧪 Full Example
