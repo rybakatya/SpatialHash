@@ -1,4 +1,4 @@
-# OpenWorldToolkit.SpatialHash
+# SpatialHash
 
 A lightweight, allocation-lean **spatial index for the Unity Editor/Runtime** that buckets items on the XZ plane using coarse cells subdivided into smaller subcells. Perfect for proximity queries, AI neighborhoods, trigger checks, and crowd sims.
 
