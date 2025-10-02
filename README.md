@@ -10,17 +10,6 @@ A lightweight, allocation-lean **spatial index for the Unity Editor/Runtime** th
 
 ---
 
-## 📦 Installation (Unity Package Manager)
-
-Install via **Package Manager** (UPM). Choose one of the options below.
-
-### Option A — Add package from Git URL
-1. Open **Window → Package Manager**.
-2. Click the **+** button → **Add package from git URL…**
-3. Paste the repo URL:
-   ```
-   https://github.com/<org-or-user>/OpenWorldToolkit.SpatialHash.git
-   ```
 
 ## 🚀 Quick Start
 
